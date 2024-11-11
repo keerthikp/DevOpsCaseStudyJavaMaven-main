@@ -3,7 +3,7 @@ package com.helloworld;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Test {
+public class MyCalculatorTest {
 
     @Test
     public void testAddition() {
