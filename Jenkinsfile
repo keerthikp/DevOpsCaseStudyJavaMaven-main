@@ -6,7 +6,7 @@ pipeline {
         maven 'maven3'
     }
     environment {
-        CATALINA_HOME='C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0'
+        CATALINA_HOME='C:\\Program Files\\Apache Software Foundation\\Tomcat 11.0'
     }
 
     stages {
@@ -42,8 +42,8 @@ pipeline {
         stage('Restart Tomcat') {
             steps {
                 script {
-                    bat "net stop Tomcat9"
-                    bat "net start Tomcat9"
+                    bat "net stop Tomcat11"
+                    bat "net start Tomcat11"
                 }
                 
             }
