@@ -1,7 +1,9 @@
-package com.helloworld;
+package com.helloworld.src.test.java.com.helloworld;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.helloworld.Calculator;
 
 public class CalculatorTest {
 
