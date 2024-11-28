@@ -2,7 +2,7 @@ package com.helloworld.src.test.java.com.helloworld;
 
 import org.junit.Assert;
 import org.junit.Test;
-import com.helloworld.Calculator; // added commits
+import com.helloworld.Calculator; // added commits for checking
 
 public class CalculatorTest {
 
