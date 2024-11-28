@@ -9,7 +9,7 @@ public class CalculatorTest {
     @Test
     public void testAddition() {
         Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 15", 15, test.addition(5,10));
+        Assert.assertEquals("The output should be 15", 15, test.addition(5,5));
     }
 
     @Test
