@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     tools {
-        jdk 'jdk11'
-        maven 'maven3'
+        jdk 'jdk-11.0.16.1'
+        maven 'maven3.9.9'
     }
     environment {
         CATALINA_HOME='C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0'
