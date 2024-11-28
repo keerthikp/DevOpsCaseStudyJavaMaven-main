@@ -1,4 +1,4 @@
-package com.helloworld;
+package com.helloworld.src.main.java.com.helloworld;
 
 public class CalculatorUsingMath {
 
