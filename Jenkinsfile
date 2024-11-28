@@ -25,14 +25,5 @@ pipeline {
                 
             }
         }
-        stage('Restart Tomcat') {
-            steps {
-                script {
-                    bat "net stop Tomcat 9.0"
-                    bat "net start Tomcat 9.0"
-                }
-                
-            }
-        }
     }
 }
