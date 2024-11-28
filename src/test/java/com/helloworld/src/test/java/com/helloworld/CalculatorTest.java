@@ -2,7 +2,7 @@ package com.helloworld.src.test.java.com.helloworld;
 
 import org.junit.Assert;
 import org.junit.Test;
-import com.helloworld.Calculator; // removing comments
+import com.helloworld.Calculator; // added comments
 
 public class CalculatorTest {
 
