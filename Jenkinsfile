@@ -27,8 +27,8 @@ pipeline {
         stage('Restart Tomcat') {
             steps {
                 script {
-                    bat "net stop Tomcat9"
-                    bat "net start Tomcat9"
+                    bat "net stop Tomcat9.0"
+                    bat "net start Tomcat9.0"
                 }
                 
             }
