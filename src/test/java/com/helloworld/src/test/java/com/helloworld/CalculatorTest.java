@@ -3,7 +3,7 @@ package com.helloworld.src.test.java.com.helloworld;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.helloworld.Calculator; // test first commit // second commit
+import com.helloworld.Calculator; 
 
 public class CalculatorTest {
 
